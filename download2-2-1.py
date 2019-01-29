@@ -8,7 +8,7 @@ sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf-8')
 imgUrl ="http://blogfiles.naver.net/20151222_18/s4616_1450771994984gQcKL_PNG/python.png"
 htmlURL = "http://google.com"
 
-savePath1 = "c:/test1.png"   
+savePath1 = "c:/test1.png"
 savePath2 = "c:/index.html"
 
 dw.urlretrieve(imgUrl, savePath1)
